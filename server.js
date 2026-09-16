@@ -54,7 +54,7 @@ const HOST = process.env.HOST || "0.0.0.0";
 // The real backend. Defaults to the API this project ships pointed at;
 // override with OTTFREE_API_URL (Render dashboard, or a local .env — see
 // .env.example) without touching any code.
-const API_TARGET = normalizeTarget(process.env.OTTFREE_API_URL || "https://ucapi-jtrl.onrender.com");
+const API_TARGET = normalizeTarget(process.env.OTTFREE_API_URL || "https://varying-orsa-komi106-7ef913ad.koyeb.app");
 const API_PREFIX = "/api-proxy"; // internal mount point the browser calls, distinct from the backend's own "/api/thumb" route
 
 // How long to keep a cached JSON GET response before re-asking the backend.
