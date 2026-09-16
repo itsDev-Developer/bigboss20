@@ -20,7 +20,7 @@
  * variables instead of hand-editing this file — see .env.example.
  */
 window.OTTFREE_CONFIG = {
-  BASE_URL: "/api-proxy/https://varying-orsa-komi106-7ef913ad.koyeb.app",
+  BASE_URL: "/api-proxy",
 
   // TMDb v3 API key, used client-side only to fetch episode lists, overviews,
   // backdrops and ratings that the backend doesn't already provide.
